@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji-container {
+  position: relative;
+  width: 80vmin;
+  height: 80vmin;
+}
+
+.emoji {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.eye {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.05s linear;
+}
+
+/* Ajusta estas posiciones según tu emoji */
+.left-eye {
+  top: 0%;
+  left: 0%;
+}
+
+.right-eye {
+  top: 0%;
+  left: -29%;
+}
